@@ -1,6 +1,6 @@
 
-const vardi=['DŽeina Arenda','Jurita Stikane ','Signe Līce','Linda Atvare','Jurita Stikāne']
-const balvas=['Iphone 13','Dators','Māja','Dzīvoklis','Mašīna']
+const vardi=['DŽeina Arenda','Jurita Stikane ','Signe Līce','Linda Atvare','Jurita Stikāne'];
+const balvas=['Iphone 13','Dators','Māja','Dzīvoklis','Mašīna'];
 const naudaKopa=1000000;//kopeja summa
 let uzvaretajuSkaits=5;
 let rindas = document.querySelector('.rindas');
