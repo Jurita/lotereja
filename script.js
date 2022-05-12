@@ -1,10 +1,10 @@
 
-const vardi = ['DŽeina Arenda', 'Jurita Stikane ', 'Signe Līce', 'Linda Atvare', 'Jurita Stikāne'];
-const balvas = ['Iphone 13', 'Dators', 'Māja', 'Dzīvoklis', 'Mašīna'];
+const vardi = ['DŽeina Arenda', 'Jurita Stikane ', 'Signe Līce', 'Linda Atvare', 'Jurita Stikāne']
+const balvas = ['Iphone 13', 'Dators', 'Māja', 'Dzīvoklis', 'Mašīna']
 const naudaKopa = 1000000;//kopeja summa
 let uzvaretajuSkaits = 5;
 let rindas = document.querySelector('.rindas');
-rindas.innerHTML = ' ';
+rindas.innerHTML = '';
 
 
 for (let i = 0; i < uzvaretajuSkaits; i++) {
@@ -17,9 +17,10 @@ for (let i = 0; i < uzvaretajuSkaits; i++) {
 
 
     rindas.innerHTML += `
-<tr>
-<td>${i + 1}</td>
-<td>${uzvaretajs}</td>
-<td>${laimesti}</td>
-</tr>`
+    <tr>
+    <td>${i + 1}</td>
+    <td>${uzvaretajs}</td>
+    <td>${laimesti}</td>
+    </tr>
+    `
 }
